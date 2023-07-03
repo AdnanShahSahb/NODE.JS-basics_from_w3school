@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        fetch('http://localhost:8080/')
+            .then((response) => response.json())
+            .then((data) => {
+                console.log(data);
+            })
+            .catch((error) => {
+                console.log('Error:', error);
+            });
+    });
+</script>
+
+
+<body>
+    <div id="div">a</div>
+    <p>suna adnane</p>
+    <h1 style="text-align: center;color:red;">ab tu bhi backend coding krega </h1>
+    <p>😆</p>
+</body>
+
+</html>

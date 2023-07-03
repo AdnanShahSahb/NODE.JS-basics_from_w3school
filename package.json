@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "mongodb": "^5.6.0",
+    "nodemailer": "^6.9.3",
+    "upper-case": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "name": "node-js-serious",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "filing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
